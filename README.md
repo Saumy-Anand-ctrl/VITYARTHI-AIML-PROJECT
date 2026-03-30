@@ -1,16 +1,16 @@
-# 🏠 House Price Predictor
+House Price Predictor
 
 A beginner-friendly Machine Learning project that predicts house prices (in Indian Rupees, Lakhs) using Linear Regression based on three key features: Cost of Living, Locality Rating, and City Population.
 
 ---
 
-## 📌 Project Overview
+Project Overview
 
 This project demonstrates a simple supervised learning workflow using **scikit-learn's Linear Regression** model. It takes socio-economic features of a city/locality as input and predicts the approximate house price in lakhs (₹).
 
 ---
 
-## 🧰 Tech Stack
+Tech Stack
 
 | Tool / Library | Purpose |
 |---|---|
@@ -21,7 +21,7 @@ This project demonstrates a simple supervised learning workflow using **scikit-l
 
 ---
 
-## 📁 Project Structure
+Project Structure
 
 ```
 house-price-predictor/
@@ -33,7 +33,7 @@ house-price-predictor/
 
 ---
 
-## 📊 Dataset
+Dataset
 
 The dataset is hardcoded within the script and contains 8 sample records with the following features:
 
@@ -47,8 +47,7 @@ The dataset is hardcoded within the script and contains 8 sample records with th
 > ⚠️ **Note:** The dataset has only 8 records. This is suitable for demonstration but not for production use.
 
 ---
-
-## 🚀 How to Run
+How to Run
 
 ### 1. Clone the Repository
 ```bash
@@ -80,7 +79,7 @@ Enter details to predict house price:
 
 ---
 
-## 📦 Requirements
+Requirements
 
 Create a `requirements.txt` file with the following:
 
@@ -97,7 +96,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 How It Works
+How It Works
 
 1. **Data Preparation** — A small dataset of 8 cities is loaded into a Pandas DataFrame.
 2. **Feature Selection** — Three features (`Cost_of_Living`, `Locality_Rating`, `Population`) are selected as inputs (X), and `Price` is the target (y).
@@ -116,8 +115,7 @@ pip install -r requirements.txt
 | **R² Score** | Coefficient of Determination — how well the model fits (1.0 = perfect) |
 
 ---
-
-## ⚠️ Limitations
+Limitations
 
 - Only 8 data points — model may overfit and not generalize well to real-world data.
 - No feature scaling applied (not required for Linear Regression but useful for others).
@@ -126,7 +124,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔮 Future Improvements
+Future Improvements
 
 - [ ] Expand dataset with real-world data (e.g., from housing APIs or Kaggle datasets)
 - [ ] Add more features: number of bedrooms, floor area, proximity to schools/hospitals
@@ -136,14 +134,7 @@ pip install -r requirements.txt
 
 ---
 
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
 
 ---
 
-## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
