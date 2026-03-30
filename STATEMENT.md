@@ -8,6 +8,5 @@ helping buyers and investors make informed decision
 
 OBJECTIVE
 The main objective of this project is to:
-- Develop a predictive model for house prices
-- Apply machine learning concepts learned in the course
+- Develop a predictive model for house prices by applying machine learning concept
 - Provide a simple tool for estimating property values
