@@ -107,7 +107,7 @@ How It Works
 
 ---
 
-## 📈 Model Evaluation Metrics
+Model Evaluation Metrics
 
 | Metric | Description |
 |---|---|
