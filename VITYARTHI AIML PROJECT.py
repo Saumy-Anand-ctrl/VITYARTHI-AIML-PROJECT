@@ -36,7 +36,7 @@ print("Predicted Prices:", y_pred)
 
 # Example: Predict new house price
 incof=int(input("input cost of living"))
-locs=int(input("entter locality scale i e disiance from down towm"))
+locs=int(input("entter locality scale i e disiance from down towm(0-10)"))
 pop=int(input("enter aprox population of city"))
 new_data = np.array([[incof, locs, pop]])
 predicted_price = model.predict(new_data)
